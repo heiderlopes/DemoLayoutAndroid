@@ -1,0 +1,67 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <TextView
+            android:text="@string/label_titulo_cadastro_clube"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:textSize="16sp"
+
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/label_clube"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+        <EditText
+            android:width="200px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/label_estado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+        <EditText
+            android:width="100px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingBar"
+            android:layout_column="2" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/botao_cadastrar"
+            android:id="@+id/button"
+            android:layout_column="2" />
+    </TableRow>
+
+</TableLayout>

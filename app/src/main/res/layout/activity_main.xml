@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:weightSum="6"
+    android:orientation="horizontal" >
+    <LinearLayout
+        android:id="@+id/lin1"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="@string/titulo_principal"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/btnCadastrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastrar"/>
+
+        <Button
+            android:id="@+id/btnGaleria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver times"/>
+
+        <Button
+            android:id="@+id/btnLista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lista Times"/>
+
+        <Button
+            android:id="@+id/btnSair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sair"/>
+    </LinearLayout>
+</LinearLayout>

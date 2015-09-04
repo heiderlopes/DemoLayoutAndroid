@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Demo Layout Android</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="titulo_principal">Demo Layouts - Clubes</string>
+
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="title_activity_galeria">GaleriaActivity</string>
+    <string name="title_activity_detalhe_imagem">DetalheImagemActivity</string>
+    <string name="title_activity_cadastro">CadastroActivity</string>
+    <string name="title_activity_lista_times">ListaTimesActivity</string>
+    <string name="label_clube">Clube</string>
+    <string name="label_estado">Estado</string>
+    <string name="botao_cadastrar">Cadastrar</string>
+    <string name="label_titulo_cadastro_clube">Cadastro de Times</string>
+    <string name="label_detalhe_imagem">Detalhe da Imagem</string>
+    <string name="label_titulo_layout">Demo Layout</string>
+    <string name="label_cabecalho">Aqui fica o cabeçalho</string>
+    <string name="label_rodape">Aqui fica o rodapé</string>
+    <string name="label_lista_vazia">Lista vazia</string>
+    <string name="label_login">LOGIN</string>
+    <string name="label_usuario">Usuário</string>
+    <string name="label_senha">Senha</string>
+</resources>
